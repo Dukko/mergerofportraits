@@ -1,0 +1,52 @@
+###############################
+#New Classes Hybrids Humans
+
+RoboMaids = {
+	archetype = ROBOMAIDS
+	gender = no
+	robotic = yes
+	use_climate_preference = no
+	portrait_modding = yes
+	
+	playable = { host_has_dlc = "Synthetic Dawn Story Pack" }
+	randomized = {
+		always = no
+		#host_has_dlc = "Synthetic Dawn Story Pack"
+		# The create_species effect can't properly take the possible trigger below into account.
+		# Work around this by disabling this class for species randomization after game start.
+		#NOT = { has_global_flag = game_started }
+	}	
+	portraits = {
+		"artifactF_01"
+		"artifactF_01_b"
+		"artifactF_02"
+#		"artifactF_02_b"
+		"artifactF_03"
+		"artifactF_04"
+		"artifactF_05_a"
+#		"artifactF_05_b"
+		"artifactF_05_c"
+		"artifactF_05_d"
+		"artifactF_05_e"
+		"extra_artifactF_sub_a"
+#		"extra_artifactF_sub_b"
+	}
+	non_randomized_portraits = {
+		"artifactF_01"
+		"artifactF_01_b"
+		"artifactF_02"
+#		"artifactF_02_b"
+		"artifactF_03"
+		"artifactF_04"
+		"artifactF_05_a"
+#		"artifactF_05_b"
+		"artifactF_05_c"
+		"artifactF_05_d"
+		"artifactF_05_e"
+		"extra_artifactF_sub_a"
+#		"extra_artifactF_sub_b"
+	}
+	
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
