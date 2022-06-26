@@ -60,6 +60,17 @@ HUM = {
 		"serpentoid"
 		"ape"
 		"chiss"
+		"humanoid_16"
+		"humanoid_gnome"
+		"asari-republic"
+		"quarian"
+		"salarian"
+		"turian"
+		"space_romans"
+		"greeks"
+		"space_romans_elves"
+		"space_greeks_elves"
+		"zem"
 		}
 	}
 
@@ -393,6 +404,14 @@ ROBOT = {
 		}
 	}
 
+	custom_portraits = {#dukko
+		portraits = {
+			"automatons"
+			"talos_automaton"
+			"canoptek_02"
+			}
+		}
+
 	graphical_culture = ai_01
 	move_pop_sound_effect = "robot_pops_move"
 
@@ -516,6 +535,9 @@ MACHINE = {
 			"artifactF_02"
 			"artifactF_05_c"
 			"extra_artifactF_sub_a"
+			"automatons"
+			"talos_automaton"
+			"canoptek_02"
 		}
 	}
 
