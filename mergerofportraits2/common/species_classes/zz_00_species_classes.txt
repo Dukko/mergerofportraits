@@ -59,6 +59,7 @@ HUM = {
 		"xirmian"
 		"serpentoid"
 		"ape"
+		"chiss"
 		}
 	}
 
