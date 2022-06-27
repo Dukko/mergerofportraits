@@ -71,6 +71,7 @@ HUM = {
 		"space_romans_elves"
 		"space_greeks_elves"
 		"zem"
+		"morjan"
 		}
 	}
 
